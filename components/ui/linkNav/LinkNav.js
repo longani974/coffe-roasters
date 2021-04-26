@@ -6,10 +6,10 @@ function LinkNav() {
       <Link href="/">
         <li>Home</li>
       </Link>
-      <Link href="/mes-projets">
+      <Link href="/about-us">
         <li>About Us</li>
       </Link>
-      <Link href="/a-propos">
+      <Link href="/subscribe">
         <li>Create Your Plan</li>
       </Link>
     </ul>

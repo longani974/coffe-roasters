@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { useState } from 'react';
 import Burger from '../ui/burger/Burger';
 import Logo from '../ui/logo/Logo';
@@ -15,7 +14,6 @@ function Navigation() {
   return (
     <nav className={styles.nav}>
       <Logo />
-      <div></div>
       <NavBar />
       <Burger
         burgerIsActive={burgerIsActive}

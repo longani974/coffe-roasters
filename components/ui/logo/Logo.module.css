@@ -2,6 +2,10 @@
   width: 163px;
 }
 
+.logo:hover {
+  cursor: pointer;
+}
+
 @media (min-width: 768px) {
   .logo {
     width: 236px;
