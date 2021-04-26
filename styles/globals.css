@@ -3,11 +3,13 @@
 :root {
   /* COLORS */
   --DarkCyan: #0e8784;
+  --LightCyan: #66d2cf;
   --DarkGreyBlue: #333d4b;
   --PaleOrange: #fdd6ba;
   --LightCream: #fefcf7;
   --Grey: #83888f;
   --DarkerBlue: #2c343e;
+  --DiasabledButton: #e2ded8;
 }
 
 * {

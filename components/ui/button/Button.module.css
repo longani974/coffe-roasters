@@ -1,0 +1,28 @@
+.button {
+  font-family: Fraunces;
+  color: var(--LightCream);
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+  width: 13.5625rem;
+  height: 3.5rem;
+  border-radius: 0.375rem;
+  border: none;
+  transition: background 0.3s ease-out;
+}
+
+.actif {
+  background: var(--DarkCyan);
+}
+
+.actif:hover {
+  cursor: pointer;
+  background: var(--LightCyan);
+}
+
+.disabled {
+  background: var(--DiasabledButton);
+}
+
+.disabled:hover {
+  cursor: not-allowed;
+}

@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Button from '../components/ui/button/Button';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -19,6 +20,8 @@ export default function Home() {
         perspiciatis sapiente harum veniam. Porro nihil reprehenderit rerum
         nostrum beatae nemo nulla animi?
       </p>
+      <Button>Button</Button>
+      <Button disabled={true}>Disabled</Button>
     </div>
   );
 }
