@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:wght@900&display=swap');
+
+:root {
+  /* COLORS */
+  --DarkCyan: #0e8784;
+  --DarkGreyBlue: #333d4b;
+  --PaleOrange: #fdd6ba;
+  --LightCream: #fefcf7;
+  --Grey: #83888f;
+  --DarkerBlue: #2c343e;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -6,8 +18,43 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  color: var(--DarkGreyBlue);
+}
+
+h1,
+h1,
+h3,
+h4 {
+  font-family: 'Fraunces', serif;
+}
+
+h1 {
+  font-size: 4.5rem;
+  line-height: 4.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 2.25rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.BigTitle {
+  font-size: 9.375rem;
+  line-height: 4.5rem;
+  color: var(--Grey);
 }
 
 a {
