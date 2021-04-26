@@ -1,0 +1,26 @@
+.navBar ul {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .navBar ul {
+    display: flex;
+    gap: 33px;
+    font-weight: bold;
+    font-size: 0.75rem;
+    line-height: 0.9375rem;
+    letter-spacing: 0.0577rem;
+  }
+
+  .navBar li {
+    list-style: none;
+    text-transform: uppercase;
+    color: var(--Grey);
+    transition: color 0.3s ease-out;
+  }
+
+  .navBar li:hover {
+    cursor: pointer;
+    color: var(--DarkGreyBlue);
+  }
+}

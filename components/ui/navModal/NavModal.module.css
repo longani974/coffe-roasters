@@ -1,0 +1,45 @@
+.navModal {
+  position: fixed;
+  background-color: var(--DarkerBlue);
+  height: 100vh;
+  width: 80vw;
+  top: 0;
+  left: var(--modalPosition);
+  transition: left 0.3s ease-in-out;
+  color: var(--LightCream);
+  z-index: 1000;
+}
+
+.navModal ul {
+  font-weight: bold;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  letter-spacing: 0.0577rem;
+  margin-top: 50px;
+  margin-left: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-transform: capitalize;
+}
+
+.navModal ul li {
+  margin-left: var(--modalPosition);
+}
+
+.navModal ul li:nth-child(1) {
+  transition: margin 0.2s 0.2s ease-in-out;
+}
+
+.navModal ul li:nth-child(2) {
+  transition: margin 0.2s 0.3s ease-in-out;
+}
+
+.navModal ul li:nth-child(3) {
+  transition: margin 0.2s 0.4s ease-in-out;
+}
+
+.navModal ul li:nth-child(4) {
+  transition: margin 0.2s 0.5s ease-in-out;
+}
